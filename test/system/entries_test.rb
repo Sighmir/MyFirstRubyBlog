@@ -22,7 +22,6 @@ class EntriesTest < ApplicationSystemTestCase
     click_on "Create Entry"
 
     assert_text "Entry was successfully created"
-    click_on "Back"
   end
 
   test "updating a Entry" do
@@ -37,7 +36,6 @@ class EntriesTest < ApplicationSystemTestCase
     click_on "Update Entry"
 
     assert_text "Entry was successfully updated"
-    click_on "Back"
   end
 
   test "destroying a Entry" do
